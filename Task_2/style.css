@@ -1,0 +1,51 @@
+body {
+  background-color: #d9ddf9;
+  margin: 0 20%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(105, 193, 240);
+  font-size: 3em;
+  border: 3px #242546;
+}
+
+img {
+  display: inline-block;
+  width: 80%;
+  margin: 0 10%;
+  border: 2px solid black;
+}
+
+#img-caption {
+  font-size: 17px;
+  text-align: center;
+}
+
+div#tribute-info {
+  padding: 15px;
+  margin-top: 25px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(196, 198, 239);
+  color: rgb(3, 22, 90);
+}
+
+h3 {
+  text-align: left;
+  color: rgb(183, 5, 123);
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
